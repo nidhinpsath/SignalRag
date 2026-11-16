@@ -1,0 +1,25 @@
+# SignalRAG — dependencies
+# Python >= 3.10, CUDA >= 12.1 (GPU required for Qwen2.5-7B-Instruct 4-bit)
+#
+# Local install:   pip install -r requirements.txt
+# Google Colab:    !pip install -q bitsandbytes faiss-cpu rouge-score groq
+#                  (Colab pre-installs everything else at compatible versions)
+
+torch==2.5.1
+transformers==4.46.3
+accelerate==1.1.1
+bitsandbytes==0.45.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+datasets==3.1.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+xgboost==2.1.3
+rouge-score==0.1.2
+groq==0.13.1
+tqdm==4.67.0
+python-dotenv==1.0.1
+matplotlib==3.9.3
+seaborn==0.13.2
+jupyterlab==4.3.1
